@@ -1,5 +1,5 @@
 .container {
-    max-width: 50%;
+    max-width: 500px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -28,5 +28,20 @@
         li{
             margin-bottom: 10px;
         }
+    }
+}
+
+
+.btn {
+    height: 40px;
+    width: 80px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: 1px solid #333;
+    background-color: transparent;
+
+    &:hover{
+        cursor: pointer;
+        
     }
 }
